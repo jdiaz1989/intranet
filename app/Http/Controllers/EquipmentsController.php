@@ -51,14 +51,14 @@ class EquipmentsController extends Controller {
 
      public function destroy($id)
     {
-       $equipment = Equipment::find($id);
+       $equipment = Equipment::findOrFail($id);
        $equipment->delete();
        return redirect('equipments');
     }
 
     public function show($id)
     { 
-       $equipments = Equipment::find($id)->first();
+       $equipments = Equipment::findOrFail($id)->first();
     
        return view('equipments.show', compact('equipments'));
        
