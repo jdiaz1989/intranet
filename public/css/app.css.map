@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.less","app.css"],"names":[],"mappings":"AACA;EACC,mBAAA;ECAA;ADGD;;;EACC,kBAAA;ECCA","file":"app.css","sourcesContent":["\nbody{\n\tpadding-top: 40px;\n}\n\nbody, label, .checkbox label{\n\tfont-weight: 300;\n}",null],"sourceRoot":"/source/"}
